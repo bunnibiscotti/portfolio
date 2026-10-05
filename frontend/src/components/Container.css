@@ -1,0 +1,17 @@
+@layer reset, layout;
+
+@layer reset {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@layer layout {
+    section {
+        background-color: whitesmoke;
+        width: 50%;
+        height: auto;
+        border-right: 2px solid gray;
+    }
+}
